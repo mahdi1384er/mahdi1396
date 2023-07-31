@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .linkbtn {
+        @apply hover:cursor-pointer hover:bg-slate-500 hover:transition-colors p-2 rounded-md duration-75
+    }
+}
